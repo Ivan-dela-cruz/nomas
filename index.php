@@ -2,5 +2,7 @@
 echo("hola mundo");
 echo("hola mundo 2");
 
-saddsdasadda
-esta nueva lonea
+dd();
+function dd(){
+    echo 333;
+}
