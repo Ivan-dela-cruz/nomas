@@ -1,8 +1,10 @@
 <?php
 echo("hola mundo");
-echo("hola mundo 2");
+echo("hola mundo 2 <br>");
 
-dd();
-function dd(){
-    echo 333;
+
+function suma($a,$b){
+    return "".$a+$b;
 }
+
+echo("".suma(5,6));
