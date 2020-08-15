@@ -8,3 +8,10 @@ function suma($a,$b){
 }
 
 echo("".suma(5,6));
+echo("".resta(5,6));
+
+
+
+function resta($a,$b){
+    return "".$a-$b;
+}
